@@ -1,6 +1,6 @@
-hight = 1.72
-print(hight)
-weight = 77
-print(weight)
-information = 'Tran Hoang Lan gioi tinh nam doc than'
-print(information)
+float = 1.72
+print(float)
+integer = 77
+print(integer)
+string = 'Tran Hoang Lan gioi tinh nam doc than'
+print(string)
