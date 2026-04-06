@@ -1,0 +1,13 @@
+a = int(input("nhap so thu nhat: "))
+b = int(input("nhap so thu hai: "))
+Tong = a+b
+print(Tong)
+Hieu = a-b
+print(Hieu)
+Tich = a*b
+print(Tich)
+Thuong = a/b
+if b != 0:
+    print("Error ")
+else:
+    print("thuong")
