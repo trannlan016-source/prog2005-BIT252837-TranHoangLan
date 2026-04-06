@@ -1,0 +1,20 @@
+class Product:
+    def __init__(self, price):
+        self._price = 0
+        self.price = price
+    @property
+    def price(self):
+        return self._price
+
+    @price.setter
+    def price(self, value):
+        if value < 0:
+            raise ValueError("errror!")
+        self._price = value
+
+try:
+    p1 = Product(1111)
+    print(f"Gia: {p1.price}")
+    p1.price = -555
+except ValueError as e:
+    print(e)
