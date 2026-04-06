@@ -1,0 +1,5 @@
+def luu_chuoi_vao_file():
+    noi_dung = input("chuoi ki tu ban muon luu: ")
+    with open("du_lieu.txt", "w", encoding="utf-8") as f:
+        f.write(noi_dung)
+    print("da lu vao file du_lieu.txt thanh cong!")
